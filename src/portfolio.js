@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Jose Estrada",
+  title: "Hi all, I'm Jose",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Software Engineer 🚀 having an experience of designing and building Desktop, Web and Mobile applications with Java / C# / PHP / JavaScript / Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -22,15 +22,15 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/nadiemedicejose",
+  linkedin: "https://www.linkedin.com/in/nadiemedicejose",
+  // gmail: "contact@davidrakosi.com",
   // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  facebook: "https://www.facebook.com/nadiemedicejose",
+  medium: "https://medium.com/@nadiemedicejose",
+  // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  instagram: 'https://www.instagram.com/nadiemedicejose/',
+  twitter: 'https://twitter.com/nadiemedicejose',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,14 +38,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Desing User Interfaces for Desktop, web and Mobile applications"
     )
   ],
 
@@ -62,36 +58,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -100,26 +84,17 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Universidad Estatal de Sonora",
+      logo: require("./assets/images/ueslogo.jpg"),
+      subHeader: "Licenciatura en Ingeniería de Software",
+      duration: "August 2017 - May 2021",
+      desc: "I'm part of the PASA Program as a mentor to other students.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "As a Software Engineering student I've learned multiple skill sets that I can share with other students enrolled in the PASA Program, helping them to improve their gradaes and achieve their goals."
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -131,15 +106,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -148,7 +123,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -188,9 +163,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "nadiemedicejose", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -298,16 +273,10 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+        "https://medium.com/@nadiemedicejose/instalaci%C3%B3n-y-configuraci%C3%B3n-de-ccproxy-ef652327cc58",
+      title: "CCProxy",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "CCProxy es un poderoso servidor proxy fácil de usar. Soporta conexiones de banda ancha, DSL, fibra óptica, satelital, entre otras; y actúa como servidor proxy para protocolos de correo, noticias, HTTP, HTTPS, FTP, SOCKS, TELNET."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -349,14 +318,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "+52 (662) 366 0568",
+  email_address: "j.estrada49@icloud.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "nadiemedicejose", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
